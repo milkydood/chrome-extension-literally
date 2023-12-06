@@ -4,6 +4,8 @@
   "name":"literally",
   "content_scripts":[
     {
+     "world": "MAIN",
+     "run_at": "document_start",
      "matches":["<all_urls>"],
      "js":["main.js"]
     }
